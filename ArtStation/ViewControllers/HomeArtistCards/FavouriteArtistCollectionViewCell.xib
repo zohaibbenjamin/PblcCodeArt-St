@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Almarai-Bold.otf">
+            <string>Almarai-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="FavouriteArtistCollectionViewCell" id="Riz-D1-AcR" customClass="FavouriteArtistCollectionViewClass" customModule="ArtStation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="77" height="30"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="77" height="30"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="9Ce-fW-KUi">
+                        <rect key="frame" x="0.0" y="0.0" width="77" height="30"/>
+                        <subviews>
+                            <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0Q-3F-Xbu">
+                                <rect key="frame" x="8" y="5" width="31" height="20"/>
+                                <fontDescription key="fontDescription" name="Almarai-Bold" family="Almarai" pointSize="8"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RwY-LA-uMs">
+                                <rect key="frame" x="3.5" y="3" width="40" height="24"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                <connections>
+                                    <action selector="delegateNavigateButton:" destination="Riz-D1-AcR" eventType="touchUpInside" id="crg-85-DQR"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="close_btn" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zCY-bC-lbk">
+                                <rect key="frame" x="44" y="2.5" width="25" height="25"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="iYb-Va-wna"/>
+                                    <constraint firstAttribute="width" constant="25" id="vpe-rv-ila"/>
+                                </constraints>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2a-ys-3b2">
+                                <rect key="frame" x="44" y="2.5" width="25" height="25"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                <connections>
+                                    <action selector="deleteButtonWith_sender:" destination="Riz-D1-AcR" eventType="touchUpInside" id="Bgf-id-q8W"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RwY-LA-uMs" firstAttribute="centerY" secondItem="M0Q-3F-Xbu" secondAttribute="centerY" id="3ZV-gu-ke6"/>
+                            <constraint firstItem="RwY-LA-uMs" firstAttribute="width" secondItem="M0Q-3F-Xbu" secondAttribute="width" multiplier="1.3" id="9Co-ol-5jF"/>
+                            <constraint firstItem="F2a-ys-3b2" firstAttribute="width" secondItem="zCY-bC-lbk" secondAttribute="width" id="GuW-jE-sXo"/>
+                            <constraint firstAttribute="height" constant="30" id="Ifc-2W-8xb"/>
+                            <constraint firstItem="F2a-ys-3b2" firstAttribute="height" secondItem="zCY-bC-lbk" secondAttribute="height" id="LP1-G2-Uia"/>
+                            <constraint firstItem="RwY-LA-uMs" firstAttribute="centerX" secondItem="M0Q-3F-Xbu" secondAttribute="centerX" id="Mxz-rd-20j"/>
+                            <constraint firstAttribute="trailing" secondItem="M0Q-3F-Xbu" secondAttribute="trailing" constant="8" id="NZQ-OA-gFa"/>
+                            <constraint firstItem="RwY-LA-uMs" firstAttribute="height" secondItem="M0Q-3F-Xbu" secondAttribute="height" multiplier="1.2" id="OeW-e8-IPw"/>
+                            <constraint firstAttribute="bottom" secondItem="M0Q-3F-Xbu" secondAttribute="bottom" constant="5" id="Xsi-nQ-L2b"/>
+                            <constraint firstItem="M0Q-3F-Xbu" firstAttribute="top" secondItem="9Ce-fW-KUi" secondAttribute="top" constant="5" id="dDv-fV-do9"/>
+                            <constraint firstItem="F2a-ys-3b2" firstAttribute="centerX" secondItem="zCY-bC-lbk" secondAttribute="centerX" id="e6K-6R-tAS"/>
+                            <constraint firstItem="zCY-bC-lbk" firstAttribute="leading" secondItem="9Ce-fW-KUi" secondAttribute="leading" constant="8" id="egd-pF-u75"/>
+                            <constraint firstItem="M0Q-3F-Xbu" firstAttribute="centerY" secondItem="9Ce-fW-KUi" secondAttribute="centerY" id="n0z-XY-wdB"/>
+                            <constraint firstItem="F2a-ys-3b2" firstAttribute="centerY" secondItem="zCY-bC-lbk" secondAttribute="centerY" id="p03-dT-orU"/>
+                            <constraint firstItem="zCY-bC-lbk" firstAttribute="centerY" secondItem="9Ce-fW-KUi" secondAttribute="centerY" id="qEm-Mf-Ti9"/>
+                            <constraint firstItem="M0Q-3F-Xbu" firstAttribute="leading" secondItem="zCY-bC-lbk" secondAttribute="trailing" constant="5" id="uN2-vn-cVE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="9Ce-fW-KUi" firstAttribute="leading" secondItem="Riz-D1-AcR" secondAttribute="leading" id="L45-Rm-c49"/>
+                <constraint firstItem="9Ce-fW-KUi" firstAttribute="centerX" secondItem="Riz-D1-AcR" secondAttribute="centerX" id="gKn-DE-5PB"/>
+                <constraint firstItem="9Ce-fW-KUi" firstAttribute="top" secondItem="Riz-D1-AcR" secondAttribute="top" id="izc-ry-bal"/>
+                <constraint firstAttribute="bottom" secondItem="9Ce-fW-KUi" secondAttribute="bottom" id="kc7-Eq-cNx"/>
+                <constraint firstItem="9Ce-fW-KUi" firstAttribute="centerY" secondItem="Riz-D1-AcR" secondAttribute="centerY" id="m3w-ad-e09"/>
+                <constraint firstAttribute="trailing" secondItem="9Ce-fW-KUi" secondAttribute="trailing" id="yO3-TZ-TBl"/>
+            </constraints>
+            <size key="customSize" width="77" height="30"/>
+            <connections>
+                <outlet property="mtitle" destination="M0Q-3F-Xbu" id="stC-I1-r0W"/>
+                <outlet property="view" destination="9Ce-fW-KUi" id="wYu-tP-ywC"/>
+            </connections>
+            <point key="canvasLocation" x="108" y="17"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="close_btn" width="14" height="14"/>
+    </resources>
+</document>

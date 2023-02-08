@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="InputTextfieldWithDropDown" customClass="InputTextfieldWithDropDown" customModule="ArtStation" customModuleProvider="target">
+            <connections>
+                <outlet property="btnDropDown" destination="Tdq-XM-CO5" id="6X8-yz-5aS"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="5AJ-f0-vIr"/>
+                <outlet property="imgDropDown" destination="C38-YE-cKO" id="dnT-XB-RTQ"/>
+                <outlet property="imgViewTrailingCOnst" destination="DJi-CC-mJf" id="jn7-co-Dlp"/>
+                <outlet property="txtField" destination="YHM-cy-LbR" id="zai-yY-G8c"/>
+                <outlet property="viewMain" destination="iN0-l3-epB" id="XtR-TE-0Ly"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mtm-7X-IHT">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Type Here" minimumFontSize="17" id="YHM-cy-LbR">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_arrow_drop_down_24px" translatesAutoresizingMaskIntoConstraints="NO" id="C38-YE-cKO">
+                            <rect key="frame" x="396" y="445.5" width="10" height="5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tdq-XM-CO5">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="FKY-1i-Gbk"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="YHM-cy-LbR" firstAttribute="height" secondItem="mtm-7X-IHT" secondAttribute="height" id="A0Q-pk-Rxp"/>
+                        <constraint firstAttribute="trailing" secondItem="C38-YE-cKO" secondAttribute="trailing" constant="8" id="DJi-CC-mJf"/>
+                        <constraint firstItem="Tdq-XM-CO5" firstAttribute="centerX" secondItem="YHM-cy-LbR" secondAttribute="centerX" id="Emd-sX-ejS"/>
+                        <constraint firstItem="Tdq-XM-CO5" firstAttribute="width" secondItem="mtm-7X-IHT" secondAttribute="width" id="HwA-74-6J1"/>
+                        <constraint firstItem="Tdq-XM-CO5" firstAttribute="height" secondItem="YHM-cy-LbR" secondAttribute="height" id="MpH-4i-D6B"/>
+                        <constraint firstItem="C38-YE-cKO" firstAttribute="centerY" secondItem="mtm-7X-IHT" secondAttribute="centerY" id="Nkt-Z6-CKD"/>
+                        <constraint firstItem="YHM-cy-LbR" firstAttribute="centerX" secondItem="mtm-7X-IHT" secondAttribute="centerX" id="XAY-kQ-ZIE"/>
+                        <constraint firstItem="Tdq-XM-CO5" firstAttribute="centerY" secondItem="YHM-cy-LbR" secondAttribute="centerY" id="bqE-0u-jcm"/>
+                        <constraint firstItem="YHM-cy-LbR" firstAttribute="centerY" secondItem="mtm-7X-IHT" secondAttribute="centerY" id="tMx-Wc-eSE"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="mtm-7X-IHT" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="4bi-ln-1RY"/>
+                <constraint firstItem="mtm-7X-IHT" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="4xs-2A-Jz5"/>
+                <constraint firstItem="mtm-7X-IHT" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="RAt-xQ-Rvd"/>
+                <constraint firstItem="mtm-7X-IHT" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="nxR-dw-PBz"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="91"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_arrow_drop_down_24px" width="10" height="5"/>
+    </resources>
+</document>

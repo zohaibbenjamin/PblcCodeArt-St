@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Logo" customModule="ArtStation" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="OJf-vX-p3R"/>
+                <outlet property="logoText" destination="3Aq-0V-7Ar" id="Qk3-fn-viH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="r3P-WG-nE3">
+                    <rect key="frame" x="138.5" y="205" width="137" height="163"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where artists wait for your call !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Aq-0V-7Ar">
+                    <rect key="frame" x="70.5" y="410" width="273" height="24"/>
+                    <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="r3P-WG-nE3" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="EQA-Sa-ExG"/>
+                <constraint firstItem="r3P-WG-nE3" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="161" id="YCE-Px-4ES"/>
+                <constraint firstItem="3Aq-0V-7Ar" firstAttribute="centerX" secondItem="r3P-WG-nE3" secondAttribute="centerX" id="e8h-ss-LSE"/>
+                <constraint firstItem="3Aq-0V-7Ar" firstAttribute="top" secondItem="r3P-WG-nE3" secondAttribute="bottom" constant="42" id="gzK-bM-uJf"/>
+            </constraints>
+            <point key="canvasLocation" x="35" y="93"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo" width="137" height="163"/>
+    </resources>
+</document>

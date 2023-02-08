@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Almarai-Bold.ttf">
+            <string>Almarai-Bold</string>
+        </array>
+        <array key="Almarai-Light.ttf">
+            <string>Almarai-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileCard" customModule="ArtStation" customModuleProvider="target">
+            <connections>
+                <outlet property="artistImageView" destination="u8a-tp-ju3" id="KXN-4I-gNa"/>
+                <outlet property="artistNameLabel" destination="K5b-I9-c17" id="wgR-cW-A8P"/>
+                <outlet property="artistPriceLabel" destination="FTN-40-MeC" id="UXE-mL-knv"/>
+                <outlet property="closeVideobtn" destination="dgy-ZI-wTb" id="zjN-Yz-Utx"/>
+                <outlet property="closeVideoimg" destination="XUT-DW-ajk" id="CdY-WP-CNB"/>
+                <outlet property="contentView" destination="B1s-dh-jif" id="RJa-ua-GTX"/>
+                <outlet property="playPausebtn" destination="XHq-p5-k5A" id="owb-M3-RgB"/>
+                <outlet property="playPauseimg" destination="QZN-I2-ehs" id="lTl-d8-ssB"/>
+                <outlet property="ratingView" destination="tPL-BX-ou4" id="7jr-jg-BXV"/>
+                <outlet property="soundOnOffbtn" destination="FbX-2S-OtE" id="cqX-k6-UNE"/>
+                <outlet property="soundOnOffimg" destination="1Hv-ze-Lsq" id="2yH-69-Pbs"/>
+                <outlet property="videoPlayerView" destination="YdB-zO-G77" id="CpY-Lu-mYY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="B1s-dh-jif">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="500"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u8a-tp-ju3">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="377"/>
+                </imageView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YdB-zO-G77" userLabel="VideoPlayerView" customClass="VideoPlayerView" customModule="ArtStation" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="-5" width="414" height="387"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reloadimg" translatesAutoresizingMaskIntoConstraints="NO" id="XUT-DW-ajk">
+                    <rect key="frame" x="348" y="16" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="M14-NK-5FI"/>
+                        <constraint firstAttribute="width" constant="50" id="tvx-6L-S1Z"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgy-ZI-wTb" userLabel="xbutton">
+                    <rect key="frame" x="348" y="16" width="50" height="50"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title=" "/>
+                    <connections>
+                        <action selector="closebutton:" destination="-1" eventType="touchUpInside" id="iwD-gH-R2R"/>
+                    </connections>
+                </button>
+                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pauseButton" translatesAutoresizingMaskIntoConstraints="NO" id="QZN-I2-ehs">
+                    <rect key="frame" x="8" y="322" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="h9i-OE-WM8"/>
+                        <constraint firstAttribute="width" constant="80" id="sOy-pr-yet"/>
+                    </constraints>
+                </imageView>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHq-p5-k5A" userLabel="playepause">
+                    <rect key="frame" x="8" y="322" width="80" height="80"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title=" "/>
+                    <connections>
+                        <action selector="playPause:" destination="-1" eventType="touchUpInside" id="Nc9-dY-sun"/>
+                    </connections>
+                </button>
+                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unmuteButton" translatesAutoresizingMaskIntoConstraints="NO" id="1Hv-ze-Lsq">
+                    <rect key="frame" x="76" y="341" width="56" height="56"/>
+                </imageView>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbX-2S-OtE" userLabel="muteunmute">
+                    <rect key="frame" x="76" y="341" width="56" height="56"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title=" "/>
+                    <connections>
+                        <action selector="muteUnmute:" destination="-1" eventType="touchUpInside" id="qE9-pb-6dZ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ArtistName" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="K5b-I9-c17">
+                    <rect key="frame" x="114.5" y="453.5" width="277.5" height="30.5"/>
+                    <fontDescription key="fontDescription" name="Almarai-Bold" family="Almarai" pointSize="27"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tPL-BX-ou4" customClass="CosmosView" customModule="Cosmos">
+                    <rect key="frame" x="272" y="425.5" width="120" height="20"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تبدا الاسعار من" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sRv-P8-R8b">
+                    <rect key="frame" x="16" y="427" width="90.5" height="17"/>
+                    <fontDescription key="fontDescription" name="Almarai-Light" family="Almarai" pointSize="15"/>
+                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1300 SAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTN-40-MeC">
+                    <rect key="frame" x="12.5" y="447.5" width="98" height="26"/>
+                    <fontDescription key="fontDescription" name="Almarai-Bold" family="Almarai" pointSize="23"/>
+                    <color key="textColor" red="0.99916261429999997" green="0.17425110939999999" blue="0.3347000182" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تقييم الفنان" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OmI-Ay-Spg">
+                    <rect key="frame" x="337" y="393" width="55" height="14"/>
+                    <fontDescription key="fontDescription" name="Almarai-Light" family="Almarai" pointSize="12"/>
+                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="eGP-YX-yjc"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="FTN-40-MeC" firstAttribute="top" secondItem="sRv-P8-R8b" secondAttribute="bottom" constant="3.5" id="0g3-jm-AAt"/>
+                <constraint firstItem="K5b-I9-c17" firstAttribute="leading" secondItem="FTN-40-MeC" secondAttribute="trailing" constant="4" id="13P-cZ-MVb"/>
+                <constraint firstItem="u8a-tp-ju3" firstAttribute="top" secondItem="B1s-dh-jif" secondAttribute="top" id="1aE-Cn-vuK"/>
+                <constraint firstItem="YdB-zO-G77" firstAttribute="centerY" secondItem="u8a-tp-ju3" secondAttribute="centerY" id="2ug-6e-3ft"/>
+                <constraint firstItem="sRv-P8-R8b" firstAttribute="leading" secondItem="eGP-YX-yjc" secondAttribute="leading" constant="16" id="4z2-tL-qfv"/>
+                <constraint firstItem="1Hv-ze-Lsq" firstAttribute="bottom" secondItem="YdB-zO-G77" secondAttribute="bottom" constant="15" id="8R9-n9-lUV"/>
+                <constraint firstItem="FbX-2S-OtE" firstAttribute="centerX" secondItem="1Hv-ze-Lsq" secondAttribute="centerX" id="CdF-q4-GYK"/>
+                <constraint firstItem="eGP-YX-yjc" firstAttribute="trailing" secondItem="XUT-DW-ajk" secondAttribute="trailing" constant="16" id="Ezh-to-KYf"/>
+                <constraint firstItem="FbX-2S-OtE" firstAttribute="height" secondItem="1Hv-ze-Lsq" secondAttribute="height" id="Gec-QO-nm6"/>
+                <constraint firstItem="dgy-ZI-wTb" firstAttribute="centerY" secondItem="XUT-DW-ajk" secondAttribute="centerY" id="HnI-6m-pox"/>
+                <constraint firstAttribute="trailing" secondItem="u8a-tp-ju3" secondAttribute="trailing" id="IDi-KF-8Lz"/>
+                <constraint firstItem="OmI-Ay-Spg" firstAttribute="top" secondItem="YdB-zO-G77" secondAttribute="bottom" constant="11" id="IG2-yL-auL"/>
+                <constraint firstItem="XUT-DW-ajk" firstAttribute="top" secondItem="B1s-dh-jif" secondAttribute="top" constant="16" id="IJ5-6F-eDV"/>
+                <constraint firstItem="dgy-ZI-wTb" firstAttribute="height" secondItem="XUT-DW-ajk" secondAttribute="height" id="Jrr-98-dBN"/>
+                <constraint firstItem="1Hv-ze-Lsq" firstAttribute="width" secondItem="QZN-I2-ehs" secondAttribute="width" multiplier="0.7" id="KRz-ji-3I1"/>
+                <constraint firstItem="QZN-I2-ehs" firstAttribute="leading" secondItem="YdB-zO-G77" secondAttribute="leading" constant="8" id="Qfr-KF-oMS"/>
+                <constraint firstItem="1Hv-ze-Lsq" firstAttribute="leading" secondItem="QZN-I2-ehs" secondAttribute="trailing" constant="-12" id="S3M-X7-G4f"/>
+                <constraint firstItem="OmI-Ay-Spg" firstAttribute="trailing" secondItem="tPL-BX-ou4" secondAttribute="trailing" id="SAc-X7-7QU"/>
+                <constraint firstItem="XHq-p5-k5A" firstAttribute="top" secondItem="eGP-YX-yjc" secondAttribute="top" constant="278" id="SvY-u6-2ja"/>
+                <constraint firstItem="YdB-zO-G77" firstAttribute="centerX" secondItem="u8a-tp-ju3" secondAttribute="centerX" id="Ugn-Eo-fyx"/>
+                <constraint firstItem="tPL-BX-ou4" firstAttribute="trailing" secondItem="K5b-I9-c17" secondAttribute="trailing" id="WvH-Dv-M8Q"/>
+                <constraint firstItem="1Hv-ze-Lsq" firstAttribute="height" secondItem="QZN-I2-ehs" secondAttribute="height" multiplier="0.7" id="YVU-RA-nN1"/>
+                <constraint firstItem="u8a-tp-ju3" firstAttribute="leading" secondItem="B1s-dh-jif" secondAttribute="leading" id="Z68-u7-eD7"/>
+                <constraint firstItem="QZN-I2-ehs" firstAttribute="bottom" secondItem="YdB-zO-G77" secondAttribute="bottom" constant="20" id="aef-6c-DkJ"/>
+                <constraint firstItem="FbX-2S-OtE" firstAttribute="centerY" secondItem="1Hv-ze-Lsq" secondAttribute="centerY" id="bpW-lE-R4E"/>
+                <constraint firstItem="FbX-2S-OtE" firstAttribute="width" secondItem="1Hv-ze-Lsq" secondAttribute="width" id="dPq-Ga-I4i"/>
+                <constraint firstItem="XHq-p5-k5A" firstAttribute="centerX" secondItem="QZN-I2-ehs" secondAttribute="centerX" id="ehc-lY-1bD"/>
+                <constraint firstItem="dgy-ZI-wTb" firstAttribute="width" secondItem="XUT-DW-ajk" secondAttribute="width" id="fla-ZW-cZ3"/>
+                <constraint firstItem="eGP-YX-yjc" firstAttribute="trailing" secondItem="K5b-I9-c17" secondAttribute="trailing" constant="22" id="foG-l1-kTL"/>
+                <constraint firstItem="FTN-40-MeC" firstAttribute="centerX" secondItem="sRv-P8-R8b" secondAttribute="centerX" id="gYe-aR-BFX"/>
+                <constraint firstItem="OmI-Ay-Spg" firstAttribute="trailing" secondItem="tPL-BX-ou4" secondAttribute="trailing" id="gg9-PS-rjC"/>
+                <constraint firstItem="XHq-p5-k5A" firstAttribute="height" secondItem="QZN-I2-ehs" secondAttribute="height" id="hWG-pX-gUU"/>
+                <constraint firstItem="YdB-zO-G77" firstAttribute="width" secondItem="u8a-tp-ju3" secondAttribute="width" id="nlN-nZ-y4Q"/>
+                <constraint firstItem="dgy-ZI-wTb" firstAttribute="centerX" secondItem="XUT-DW-ajk" secondAttribute="centerX" id="qU7-ki-GYv"/>
+                <constraint firstItem="K5b-I9-c17" firstAttribute="top" secondItem="tPL-BX-ou4" secondAttribute="bottom" constant="8" id="sa0-h5-daC"/>
+                <constraint firstItem="XHq-p5-k5A" firstAttribute="centerY" secondItem="QZN-I2-ehs" secondAttribute="centerY" id="tYL-6y-yI4"/>
+                <constraint firstItem="sRv-P8-R8b" firstAttribute="centerY" secondItem="tPL-BX-ou4" secondAttribute="centerY" id="ufZ-MY-w59"/>
+                <constraint firstItem="YdB-zO-G77" firstAttribute="height" secondItem="u8a-tp-ju3" secondAttribute="height" multiplier="1.02564" id="wpe-M1-4Id"/>
+                <constraint firstItem="XHq-p5-k5A" firstAttribute="width" secondItem="QZN-I2-ehs" secondAttribute="width" id="wwz-cz-4p3"/>
+                <constraint firstItem="eGP-YX-yjc" firstAttribute="bottom" secondItem="K5b-I9-c17" secondAttribute="bottom" constant="16" id="xLS-TF-aag"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="137.68115942028987" y="113.83928571428571"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="tPL-BX-ou4">
+            <size key="intrinsicContentSize" width="120" height="20"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="pauseButton" width="80" height="80"/>
+        <image name="reloadimg" width="54" height="54"/>
+        <image name="unmuteButton" width="60" height="60"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

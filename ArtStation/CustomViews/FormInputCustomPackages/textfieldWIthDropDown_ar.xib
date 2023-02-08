@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Almarai-Regular.ttf">
+            <string>Almarai-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InputTextfieldWithDropDown" customModule="ArtStation" customModuleProvider="target">
+            <connections>
+                <outlet property="btnDropDown" destination="b7F-7e-7gN" id="xmB-gR-jkm"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="MRn-sV-wAd"/>
+                <outlet property="imgDropDown" destination="cV7-dC-hok" id="Rkf-pT-PME"/>
+                <outlet property="imgViewTrailingCOnst" destination="byr-BR-IOJ" id="ik7-5A-i2N"/>
+                <outlet property="txtField" destination="8Cb-b6-OLx" id="ZrF-db-JfP"/>
+                <outlet property="viewMain" destination="Tk9-mf-9Hf" id="mWC-H6-wVX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tk9-mf-9Hf">
+                    <rect key="frame" x="0.0" y="5" width="414" height="896"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Cb-b6-OLx">
+                    <rect key="frame" x="31" y="5" width="352" height="896"/>
+                    <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_arrow_drop_down_24px" translatesAutoresizingMaskIntoConstraints="NO" id="cV7-dC-hok">
+                    <rect key="frame" x="-5" y="445.5" width="15" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="15" id="Tr0-oQ-tio"/>
+                        <constraint firstAttribute="height" constant="15" id="zXy-sN-GDi"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7F-7e-7gN">
+                    <rect key="frame" x="0.0" y="5" width="414" height="896"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="pz9-Ck-A5A"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="8Cb-b6-OLx" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="PmR-56-eoW"/>
+                <constraint firstItem="b7F-7e-7gN" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="S3n-po-oZB"/>
+                <constraint firstItem="Tk9-mf-9Hf" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="XRv-LP-bEg"/>
+                <constraint firstItem="8Cb-b6-OLx" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="Yvv-yR-VzM"/>
+                <constraint firstItem="8Cb-b6-OLx" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.85" id="aGs-DX-VVD"/>
+                <constraint firstItem="8Cb-b6-OLx" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="aIB-0q-NZi"/>
+                <constraint firstItem="Tk9-mf-9Hf" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="b7c-KB-nLW"/>
+                <constraint firstItem="Tk9-mf-9Hf" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="bMn-04-cYH"/>
+                <constraint firstItem="cV7-dC-hok" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="-5" id="byr-BR-IOJ"/>
+                <constraint firstItem="b7F-7e-7gN" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="ext-EA-suY"/>
+                <constraint firstItem="Tk9-mf-9Hf" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="fyU-wW-lrP"/>
+                <constraint firstItem="cV7-dC-hok" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="jVF-at-cSA"/>
+                <constraint firstItem="b7F-7e-7gN" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="kST-S1-pcn"/>
+                <constraint firstItem="b7F-7e-7gN" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="sMK-eI-PBf"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="51"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_arrow_drop_down_24px" width="10" height="5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

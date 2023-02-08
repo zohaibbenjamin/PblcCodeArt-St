@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.otf">
+            <string>Poppins-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FormTextInput" customModule="ArtStation" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="Jl4-2K-dwX"/>
+                <outlet property="textInputFeild" destination="zLa-Uu-MR6" id="TP0-tV-pLv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="34"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5IE-TW-gb2" userLabel="FormField">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="34"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zLa-Uu-MR6">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="26"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="26" id="KDK-aV-gel"/>
+                            </constraints>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="16"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vtl-Jb-Bxl">
+                            <rect key="frame" x="0.0" y="33" width="414" height="1"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="RgW-21-skX"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Vtl-Jb-Bxl" secondAttribute="bottom" id="Aid-6o-p6M"/>
+                        <constraint firstItem="zLa-Uu-MR6" firstAttribute="top" secondItem="5IE-TW-gb2" secondAttribute="top" id="CtL-b5-Sbj"/>
+                        <constraint firstAttribute="height" constant="34" id="E0R-O6-bVO"/>
+                        <constraint firstItem="Vtl-Jb-Bxl" firstAttribute="leading" secondItem="5IE-TW-gb2" secondAttribute="leading" id="FgN-5a-0wq"/>
+                        <constraint firstAttribute="trailing" secondItem="Vtl-Jb-Bxl" secondAttribute="trailing" id="Gca-hC-98K"/>
+                        <constraint firstAttribute="trailing" secondItem="zLa-Uu-MR6" secondAttribute="trailing" id="RAs-5S-Hfm"/>
+                        <constraint firstItem="zLa-Uu-MR6" firstAttribute="leading" secondItem="5IE-TW-gb2" secondAttribute="leading" id="vq9-xi-jEp"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="5IE-TW-gb2" secondAttribute="trailing" id="3dI-hf-58r"/>
+                <constraint firstItem="5IE-TW-gb2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="d9E-VG-oOC"/>
+                <constraint firstItem="5IE-TW-gb2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="iVs-GQ-SJn"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="5IE-TW-gb2" secondAttribute="bottom" id="zV2-zH-Mzh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="35" y="28"/>
+        </view>
+    </objects>
+</document>

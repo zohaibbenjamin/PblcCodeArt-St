@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Art Station</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>Configuration</key>
+	<string>$(CONFIGURATION)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>comgooglemaps</string>
+		<string>comgooglemaps-x-callback</string>
+		<string>instagram</string>
+		<string>whatsapp</string>
+		<string>youtube</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Art Station want to access Camera for profile photo and sharing media for chat</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Allow access to your location so we can confirm nearest possible location for your event and also display your current area temperature.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Allow access to your location so we can confirm nearest possible location for your event and also display your current area temperature.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Allow access to your location so we can confirm nearest possible location for your event and also display your current area temperature.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow access to your location so we can confirm nearest possible location for your event and also display your current area temperature.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Art Station want to access microphone for voice messages purposes</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Art Station want to access Photo Library for Media sharing</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Poppins-Light.tff</string>
+		<string>Poppins-Medium.tff</string>
+		<string>Poppins-Semibold.tff</string>
+		<string>Poppins-Bold.tff</string>
+		<string>Almarai-Bold.otf</string>
+		<string>Almarai-ExtraBold.otf</string>
+		<string>Almarai-Regular.otf</string>
+		<string>Almarai-Light.otf</string>
+		<string>Almarai-Bold.otf</string>
+		<string>Montserrat-LightItalic.ttf</string>
+		<string>Montserrat-Medium.ttf</string>
+		<string>Montserrat-Light.ttf</string>
+		<string>Montserrat-ThinItalic.ttf</string>
+		<string>Montserrat-Thin.ttf</string>
+		<string>Montserrat-Bold.ttf</string>
+		<string>Montserrat-MediumItalic.ttf</string>
+		<string>Montserrat-BlackItalic.ttf</string>
+		<string>Montserrat-SemiBold.ttf</string>
+		<string>Montserrat-ExtraLighItalic.ttf</string>
+		<string>Montserrat-ExtraBold.ttf</string>
+		<string>Montserrat-Black.ttf</string>
+		<string>Montserrat-Regular.ttf</string>
+		<string>Montserrat-Italic.ttf</string>
+		<string>Montserrat-SemiBoldItalic.ttf</string>
+		<string>Montserrat-ExtraBoldItalic.ttf</string>
+		<string>Montserrat-Regular.ttf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Onboarding</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Home</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+</dict>
+</plist>

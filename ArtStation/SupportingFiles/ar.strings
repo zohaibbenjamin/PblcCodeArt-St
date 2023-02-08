@@ -1,0 +1,520 @@
+/*
+  ar.strings
+  ArtStation
+
+  Created by Apple on 16/07/2021.
+  
+*/
+
+
+
+
+/*
+ 
+ MAjoor TRansaltions
+ 
+ */
+
+/*
+  ar..strings
+  FoodTrucker
+
+  Created by Apple on 1/9/19.
+  Copyright © 2019 Pasha. All rights reserved.
+*/
+
+//FTUHome screen user home screen
+/*
+"Privacy Policy"="سياسةالخصوصية";
+"Please Sign in for full access"="سجل من فضلك للوصول الكامل";
+"Location is off"="لم يتم السماح للموقع";
+"To turn on location please press settings"="يرجي تفعيل خدمات الموقع في هاتفك";
+"No internet connection"="لا يوجد اتصال بالإنترنت ";
+"Please select atleast one cuisine"="من فضلك اختر صنفًا واحدًا من الطعام على الأقل.";
+"Settings"="إعدادت";
+"OK"="حسنًا";
+"Not serving right now"="لا يمكن تقديم الخدمة في الوقت الحالي";
+"Not Serving"="لا يعمل حاليًا";
+"Serving"="يعمل حاليًا ";
+"Notifications"="إخطارات";
+"Language Switch to Arabic"="تغيير اللغة";
+"Profile"="الملف الشخصي";
+"Terms and Conditions"="الشروط والأحكام";
+"Contact Us"="اتصل بنا";
+"Logout"="الخروج";
+"Profile updated"="تم تحديث الملف الشخصي";
+"Please select a country first"="من فضلك اختر البلد أولًا.";
+"Please type here..."="الرجاء الكتابة هنا";
+"Please add message"="من فضلك أضف رسالة";
+"Please add a reason"="يرجى اضافة سبب";
+"Reason for contacting"="أسباب التواصل معنا";
+"Suggestion"="اقتراح";
+"Complaint"="شكوى";
+"Compliment"="إطراء";
+"Other"="أخرى";
+"Profile"="الملف الشخصي";
+"Ok"="حسنًا";
+//registration storyboard
+//signup
+"Unable to open camera"="غير قادر على فتح الكاميرا";
+"Please confirm terms and conditions first"="يرجي الموافقة علي الشروط والأحكام أولًا.";
+"Send Registration Request"="إرسال طلب التسجيل";
+"Please add user name first"="من فضلك أدخِل اسم المستخدِم أولًا";
+"Please select country first"="حدد الدولة";
+"Please select city first"="من فضلك أدخِل اسم المدينة أولًا";
+"Please add email id first"="من فضلك أدخِل البريد الإلكتروني";
+"Please add your password first"="من فضلك أدخِل كلمة السر";
+"Please add confirm password first"="من فضلك أدخِل تأكيد كلمة السر أولًا";
+"Password and confirm password does not match"="كلمة السر وتأكيد كلمة السر غير متطابقين";
+"User password should be more than 6 characters"="لا ينبغي أن تكون كلمة السر أقل من 6 رموز";
+"Please enter truck name first"="من فضلك أدخِل اسم شاحنة الأغذية";
+"Please enter contact person name first"="من فضلك أدخِل اسم جهة الاتصال أولًا";
+"Please enter email first"="من فضلك أدخِل البريد الإلكتروني";
+"Please enter your password"="من فضلك أدخِل كلمة السر";
+"Please fill in the Confirm Password"="يرجي كتابة تأكيد كلمة السر";
+"Password should be more than five characters"="لا ينبغي أن تكون كلمة السر أقل من 6 رموز";
+"Password should be less than twenty characters"="ينبغي أن تكون تكون كلمة السر أقل من 20 رمز";
+"Please add atleast one photo"="يرجي إضافة صورة واحدة علي الأقل.";
+"Please select at least one cuisine"="من فضلك اختر نوعًا واحدًا من الأصناف على الأقل";
+"Select Country"="حدد الدولة";
+"Select City"="اختر المدينة";
+"Please Select Country First"="من فضلك اختر البلد أولًا.";
+"Select Cuisine"="اختر اصناف الطعام";
+"Add Photo"="إضافة صورة";
+"Cancel"="إلغاء";
+"Select From Gallery"="اختر من المعرض";
+"Take Photo"="التقاط صورة";
+"Confirm Registration"="تأكيد التسجيل";
+//signin
+
+"Inactive account"="تعطيل الحساب";
+
+//trucker
+
+"Home"="الصفحة الرئيسية";
+"Not at serving location"="اكتشفنا عدم تواجدك في نطاق موقع الخدمة حاليًا.";
+"Please turn on moving"="يرجى تشغيل وضع التنقل.";
+"Serving is switched off because you are out of Defined Area"="تم إيقاف تشغيل وضع التنقل لعدم تواجدك في المنطقة المحددة.";
+"Serving is switched on"="تم تشغيل وضع التنقل.";
+"moving is switched on because you are out of defined area"="تم تشغيل وضع التنقل لعدم تواجدك في المنطقة المحددة.";
+"moving is switched Off"="تم إيقاف تشغيل وضع التنقل.";
+"Serving location not found"="موقع الخدمة غير موجود.";
+"Please switch on moving"="يرجى تشغيل وضع التنقل.";
+"Message goes here."="الرسالة تذهب هنا";
+
+
+
+"Available"="متوفر";
+"Not Available"="غير متوفر";
+"Please add timings . ."="Please add timings . .";
+"Timing Updated"="تم تحديث المواعيد";
+"Please set opening time first"="Please set opening time first";
+"not yet set"="لم تحدد بعد";
+"Contact number updated"="تم تحديث رقم الاتصال";
+"Updated"="تحديث";
+"About Updated"="حول تحديث";
+"Truck Details"="تفاصيل شاحنة الأغذية";
+"Complaint sent"="تم إرسال الرسالة.";
+"Please add description . ."="الرجاء إضافة الوصف";
+"Cuisine Type"="نوع الطعام";
+"Please add cuisines . ."="اختر اصناف الطعام";
+"Cuisines Updated"="تم تحديث أصناف الطعام";
+"Hungry? Looking to try something new? Download “Food Truckers” app to find your next meal on wheels now!"="تحميل ‘فود تركرز’ التطبيق الآن";
+"Phone number cannot be more than 15 digits"="لا يمكن أن يزيد رقم الهاتف عن 15 رقمًا";
+"Cannot use special characters or digits for name"="لا يمكن استخدام أحرف خاصة أو أرقام للاسم";
+"Your message has been sent. Someone from our team will contact you soon."="تم ارسال رسالتك.  سيتصل بك شخص من فريقنا قريبًا";
+"08:00 AM"="ص۸:٠٠";
+"07:59 AM"="ص۷:۵٩";
+"Please rate first"="يرجى معدل أولا";
+"Please add description"="الرجاء إضافة الوصف";
+
+
+
+*/
+
+
+//MAJOOR USER
+
+
+/*
+
+//GENERIC
+"No orders yet"="لا توجد طلبات حتى الآن";
+"No Data Available"="لا تتوافر بيانات";
+"Oops!Something went wrong"="عفواً! هناك خطأ ما";
+"There is a problem with your internet connection.Please make sure you are connected to Wi-Fi/Data to use app"="هناك مشكلة في اتصالك بالإنترنت. يرجى التأكد من أنك متصل بشبكة الانترنت / واي فاي لاستخدام التطبيق";
+
+//HOME
+
+"In-Process"="تحت المعالجة";
+"Only completed orders can be rescheduled"="يمكن إعادة جدولة الطلبات المكتملة فقط";
+
+"Assigned"="تعيين";
+"assigned"="تعيين";
+
+"Pending"="قيد الانتظار";
+"pending"="قيد الانتظار";
+
+"Pre-Order"="طلب مسبق";
+"pre-Order"="طلب مسبق";
+
+"In Progress"="قيد الإجراء";
+"in progress"="قيد الإجراء";
+
+"Waiting For Driver"="في انتظار السائق";
+"waiting for driver"="في انتظار السائق";
+
+"With Driver"="مع السائق";
+"with driver"="مع السائق";
+
+"Completed"="اكتمل";
+"completed"="اكتمل";
+
+"rejected"="تم الرفض";
+
+"Welcome Back!"="مرحبا بعودتك!";
+"Make your first Order!"="قم بطلبك الأول!";
+
+//PROFILE
+
+"Unable to open camera"="تعذر فتح الكاميرا";
+"Cancel"="إنشاء حساب جديد";
+"OK"="حسنًا";
+"Ok"="حسنًا";
+"Add Photo!"="إضافة صورة!";
+"Take Photo"="تصوير";
+"Select From Gallery"="اختر من محفظة الصور";
+"Profile photo updated"="تم تحديث صورة الملف الشخصي";
+
+
+//REFILL
+
+"Only completed orders can be rescheduled"="يمكن إعادة جدولة الطلبات المكتملة فقط";
+"Resource Created"="أجل خلق";
+"Order Created"="أجل خلق";
+"Repeats"="يكرر";
+"Mon"="الإثنين";
+"Tues"="الثلاثاء";
+"Tue"="الثلاثاء";
+"Wed"="الأربعاء";
+"Thurs"="الخميس";
+"Thur"="الخميس";
+"Thu"="الخميس";
+"Fri"="الجمعة";
+"Sat"="السبت";
+"Sun"="الأحَد";
+"Please add medicine name first"="الرجاء إضافة اسم الدواء أولاً";
+"Please select atleast one day"="الرجاء تحديد يوم واحد على الأقل";
+"Medicine Time"="وقت الدواء";
+"Its almost time for the medicine"="حان الوقت التقريبي للدواء";
+"This is to notify you about the medicine"="هذا لإخطارك عن الدواء";
+
+
+//UPLOAD PRESCRIPTION ORDER
+
+"Please add prescription first"="يرجى تحميل صورة الوصفة الطبية";
+"Cash"="نقداً";
+"Cash on delivery"="نقداً";
+"Card"="بطاقة الائتمان";
+"Credit/Debit Card"="بطاقة الائتمان";
+"Prescription Uploaded"="تم تحميل الوصفة الطبية";
+"Cart is empty"="عربة التسوق فارغة.";
+
+
+//SEARCH
+
+"Maximum quantity reached"="تم الوصول إلى الكمية القصوى";
+"Minimum quantity reached"="تم الوصول إلى الحد الأدنى من الكمية";
+"Unable to add  please restart the app and try again"="تعذرت الإضافة ، يرجى إعادة تشغيل التطبيق والمحاولة مرة أخرى";
+"same product already added to cart"="تم إضافة المنتج نفسه إلى سلة التسوق";
+"Added To Cart"="تمت الإضافة إلى عربة التسوق";
+"Added to cart"="تمت الإضافة إلى عربة التسوق";
+"Add To Cart"="اضف الي سلة المشتريات";
+"Add to cart"="اضف الي سلة المشتريات";
+
+"Added To Cart"="تمت الإضافة";
+"Added to cart"="تمت الإضافة";
+"FAQs"="الأسئلة متكررة";
+
+
+
+//CART
+
+"QR"="ريال ";
+
+
+//CONFIRM ORDER
+
+"Your order has been placed successfully!"="تم تقديم طلبك بنجاح!";
+//TRACK ORDERS
+
+"Reconnecting Server"="إعادة ربط الخادم";
+"You cannot chat with rider until order is picked up"="لا يمكنك الدردشة مع السائق حتى يتم استلام الطلب";
+"You cannot chat with rider until order is dispatched"="لا يمكنك الدردشة مع السائق حتى يتم استلام الطلب";
+
+
+//chat
+
+"AM"="ص";
+"am"="ص";
+"PM"="م";
+"pm"="م";
+
+
+
+//INTRO SCREEN
+
+"Order your medications quickly and conveniently"="اطلب الأدوية الخاصة بك بسرعة وسهولة";
+"Majoor selects the nearest offers for you"="يختار مأجور أقرب العروض إليك";
+"Majoor selects the nearest offers for you"="يختار مأجور أقرب العروض إليك";
+
+
+//SIGN IN
+
+"Phone number should not be more than 13 numbers"="يجب ألا يزيد رقم الهاتف عن 13 رقمًا";
+"Please use a valid phone number"="يرجى إدخال رقم صحيح";
+"Please enter a valid code"="كلمة المرور المؤقتة غير صحيحة";
+"OTP is not valid"="كلمة المرور المؤقتة غير صحيحة";
+"Password should not be more than 20 characters"="يجب ألا تزيد كلمة المرور عن 20 حرفًا";
+"Please add a valid password"="الرجاء إضافة كلمة مرور صالحة";
+"Please add a valid login ID"="الرجاء إضافة معرف تسجيل دخول صالح";
+
+//SIGN UP
+
+"Code"="ادخل الرمز";
+
+//FOrgot
+
+"Please add a valid email id or valid phone number"="يرجى إدخال البريد الإلكتروني أو رقم الهاتف";
+"Please provide either an Email ID or Phone number"="الرجاء إضافة بريد إلكتروني صالح أو رقم هاتف صالح";
+"Please enter  a valid code"="كلمة المرور المؤقتة غير صحيحة";
+"Password should contains minimum 8 characters"="يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل";
+"Password and confirm password does not match"="عدم تطابق كلمة المرور";
+"Confirm Password should contains minimum 8 characters"="يجب أن يحتوي تأكيد كلمة المرور على 8 أحرف على الأقل";
+"Please confirm a valid password"="يرجى تأكيد كلمة مرور صالحة";
+
+//SIGN UP EMAIL
+"other"="";
+"Weak"="ضعيف";
+"Too Short"="قصير جدا";
+"Good"="جيد";
+"Strong"="قوي";
+"Password should contains minimum 8 characters"="يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل";
+"Please add a valid name"="يرجى إدخال اسم صحيح";
+"Please add a valid email id"="يرجى إدخال بريد إلكتروني صحيح";
+
+
+"Sign up"="إنشاء حساب جديد";
+"Verify Phone Number"="يرجى التحقق من رقم هاتفك";
+"Help For Majoor app"="Help For Majoor app";
+"Thank you for successfully uploading your prescription.\n Majoor is working to fulfil your order and we will update you shortly"="شكرا لك على تحميل الوصفة الطبية بنجاح.\nتعمل شركة ماجور على تنفيذ طلبك وسنقوم بإبلاغك قريبًا";
+
+"0"="٠";
+
+"Please Select Mode of Payment"="يرجى تحديد طريقة الدفع";
+"View Cart"="عرض السلة";
+
+"Privacy Policy"="خصوصية الموقع";
+"Please add a promo code first"="يرجى إضافة الرمز الترويجي أولاً";
+"Please validate promo code or remove the code to place order without promocode"="الرجار تفعيل الرمز الترويجي او ازالة الرمز و اقامة الطلب بدون رمز ترويجي";
+
+"Please add a valid last name" = "الرجاء إضافة اسم عائلة صالح";
+"Please add a valid first name" = "الرجاء إضافة اسم أول صالح";
+"Please add a valid email" = "الرجاء إضافة بريد إلكتروني صالح";
+
+
+"Your cart contains items from another Outlet. Click Continue to clear previous items from the cart and add this product."="تحتوي عربة التسوق الخاصة بك بالفعل على منتجات من صيدلية أخرى. سيتم مسح منتجات الصيدلية السابقة من سلة التسوق.";
+
+
+
+//NEW ARABIC FOR PRE HOME
+
+"Please Select an insurance"="الرجاء اختيار خيار واحد";
+"Doha Insurance"="Doha Insurance";
+"Doha Takaful"="Doha Takaful";
+"Please Select One Option atleast"="الرجاء اختيار خيار واحد";
+//MAJOOR MARKET WITH BANNER
+
+"Select Location"="اختر موقعا";
+"Please agree to terms and conditions to continue"="Please agree to terms and conditions to continue";
+"Select Insurance Company"="حدد شركة التأمين";
+
+
+//Majoor Guest SignIn/SignUp required
+"Please Signup / login to continue using Majoor"="يرجى التسجيل / تسجيل الدخول لمواصلة استخدام ماجور";
+
+
+//New Design
+"Open"="افتح";
+"Close"="مغلق";
+
+
+"Categories"="الفئة";
+"Offers Near You"="عروض بالقرب منك";
+
+"Consultation"="التشاور";
+"Coming soon"="Coming soon";
+"LifeStyle"="أسلوب الحياة";
+"Pharma"="فارما";
+
+
+*/
+
+
+
+//:::::::::::::::::::::::::::::::::::: ART STATION   :::::::::::::::::::::::::::::::::::::::://
+
+"Signup / Login"="Signup / Login";
+"SAR"="ريال";
+"SAR "="ريال ";
+" SAR"=" ريال";
+
+"Complete your payment in " = " يرجى استكمال السداد قبل انتهاء المدة";
+"Jeddah"="جدة";
+"Riyadh"="الرياض";
+"Yes" = "نعم";
+"No" = "لا";
+"In love with" = "مع الحب الى";
+"Happy with" = "سعيد";
+"Sad with" = "غير راضي";
+"Angry with" = "معصب";
+"Do you want to cancel?" = "هل تريد الإلغاء";
+"No reviews yet" = "لا يوجد تقييمات";
+"Alert" = "تنبيه";
+"Your request has been submitted. we will contact you soon " = "تم استلام طلبكم وسيتم التواصل معكم بعد قليل";
+"Sign in with Apple" = "تسجيل الدخول باستخدام حساب أبل";
+"Email and password cannot be empty" = "يرجى ادخال البريد الالكتروني وكلمة المرور";
+"Ok" = "نعم";
+"Terms and Conditions are not checked" = "يرجى الموافقه على الشروط والاحكام";
+"Please fill the information in profile section" = "يرجا استكمال المعلومات المطلوبه في ملفك الشخصي";
+"Please check your email for OTP code" = "تم ارسال رمز التحقق الى بريدك الالكتروني المسجل لدينا";
+"New password is created" = "تم انشاء كلمه مرور جديده";
+"OTP has been sent on your email" = "تم ارسال رمز التحقق لبريدك الالكتروني";
+"Email format is not correct" = "البريد الالكنتروني غير صحيح";
+"The passwords enter do not match" = "كلمه المرور غير متطابقه";
+"Empty email field" = "يرجى استكمال البريد الالكتروني";
+
+"Booking#" = "رقم الحجز#";
+"View Details" = "التفاصيل";
+"Enjoy your Event" = "Enjoy your Event";
+"Approved" = "تم الموافقه";
+"Pay Now" = "ادفع الان";
+"Rejected" = "مرفوض";
+"Cancelled" = "تم الالغاء";
+"Waiting for approval" = "في انتظار الموافقه";
+"Expired" = "انتهت المده";
+"Paid" = "تم الدفع";
+"Back" = "الرجوع";
+"Band" = "فرقه";
+"Group" = "فرقه";
+"Solo" = "عزف منفرد";
+"Your booking has been expired" = "تم انتهاء صلاحيه حجزك";
+"Please select a requested place" = "يرجى اختيار مكان اقامة الحفلة";
+"Private House" = "منزل خاص";
+"Beach House" = "شاليه";
+"Woman wedding" = "فرح نساء";
+"Mens wedding" = "فرح رجال";
+"Isteraha" = "استراحه";
+"Desert or tent" = "مخيم";
+"Package" = "باقة رقم";
+
+
+
+
+
+"Please enter a vaild email address" = "ادخل بريدك الالكتروني";
+"Successfully Subscribed" = "تم الاشتراك بالنجاح";
+"OK" = "تم ";
+"Cancel" = "إلغاء";
+"Tap to select city" = "اختر المدينه";
+"Tap to select DOB" = "اختر تاريخ الميلاد";
+
+
+
+
+"Username field cannot be empty" = "اسم المستخدم لا يمكن تركه فارغ";
+"Username must contain only alphabets" = "اسم المستخدم يجب ان يحتوي على حروف فقط";
+"Password cannot be less than 6 characters" = "كلمة المرور يجب ان لا تقل عن 6 احرف";
+"Password and Confirm Password do not match" = "كلمة المرور غير متطابقة";
+"Category field cannot be empty" = "لا يمكن ترك خانة الفئة فارغة";
+"City field cannot be empty" = "لا يمكن ترك خانة المدينة فارغة";
+"Please enter a valid mobile number" = "ادخل رقم الجوال بالطريقة الصحيحه";
+"Category cannot be empty" = "لا يمكن ترك خانة الفئة فارغة";
+
+
+"Order" = "أطلب";
+"Please agree to terms and conditions before continuing" = "للاستمرار يرجى الموافقه على الشروط والأحكام";
+"Please fill all input fields" = "يرجى استكمال جميع الخانات الفارغه";
+"Passwords must match" = "كلمة المرور يجب ان تكون متطابقة";
+"Success" = "نجاح";
+"Error" = "خطأ";
+"No bookings found" = "لا يوجد حجوزات";
+"Please select a city to continue" = "اختر المدينة للاستمرار";
+"Apple id/email cannot be changed." = "لا يمكن تغيير البريد الالكتروني او حساب ابل";
+"Please select a date first" = "اختر التاريخ أولا";
+"Please select a time first" = "اختر الوقت أولا";
+"Please specify event type" = "مثال: عيد ميلاد , تخرج , يوم زواج , ترقية ...";
+"Please select a date" = "اختار تاريخ الحفلة";
+
+
+"Please go to settings and turn on the location permission." = "الذهاب لصفحة الاعدادات وتفعيل خاصية تحديد المواقع";
+"Settings" = "اعدادات";
+"You have already given this app permission to use your location." = "تم اعطاء صلاحية تفعيل الموقع للتطبيق";
+"Please enable locations services to continue." = "للاستمرار قم بتفعيل خاصية تحديد الموقع ";
+"Allow access to your location so we can confirm nearest possible location for your event." = "يرجى تفعيل خاصية تحديد الموقع للتعرف على اقرب الفنانين لموقعك";
+"Book now" = "احجز الان";
+"Profile updated"="تم تحديث الملف الشخصي";
+
+"No reviews found"="لا يوجد تقييمات";
+"No internet connection"="لا يوجد اتصال بالإنترنت ";
+"Please enter a valid email address" = "ادخل بريدك الالكتروني";
+"Your request has been sent. You will be contacted by ArtStation soon." = "تم استلام طلبك سيتم التواصل معك قريبا من ارت ستيشن";
+"Apple sign in failed" = "";
+"Enter phone number" = "ادخل رقم الجوال";
+"Close" = "اغلاق";
+"Indoor" = "مكان مغلق";
+"Outdoor" = "مكان مفتوح";
+"Saudi Formal" = "رسمي سعودي";
+"Casual" = "كاجوال";
+"Formal" = "رسمي";
+"Hours" = "ساعات";
+"Official Email Address" = "بريد الكتروني";
+"Artist Stage Name" = "الاسم الفني للفنان";
+"Continue"="تسجيل الدخول";
+"Please signup / login to continue using Art Station" = "يرجى تسجيل الدخول او سجل معنا الان ليتسنى لك استخدام التطبيق";
+"Add Review" = "اضافه تقييم";
+"Review cannot be empty" = "";
+"Rejected" = "مرفوض";
+"Completed" = "تم الدفع";
+"Cancelled" = "تم الالغاء";
+"Expired" = "انتهت المده";
+"Password should not be more than 20 characters"="يجب ألا تزيد كلمة المرور عن 20 حرفًا";
+"Please select location first" = "يرجى تحديد الموقع اولا";
+"Your session has expired" = "انتهت مدتك";
+"Please enter your phone number to complete your registration" = "يرجى ادخال رقم الجوال في ملفك الشخصي لإستكمال بيانات تسجيلك بالتطبيق";
+"Please update your profile information." = "يرجا استكمال المعلومات المطلوبه في ملفك الشخصي";
+"Please provide information to update" = "يرجى استكمال المعلومات الناقصة اولاً";
+"Images" = "الصور";
+"Videos" = "الفيديوهات";
+"Hour" = "ساعة";
+"Minute" = "دقيقة";
+"Your request has been sent. You will be contacted by Art Station soon" = "تم ارسال الطلب سيتم التواصل معك قريبا";
+"Please write your package details here!" = "!الرجاء كتابه تفاصيل الباقة الخاصة بك هنا";
+"Please write the custom package details!" = "!الرجاء كتابة تفاصيل باقتك الخاصه هنا";
+"Artist is already in Pinned List" = "تم اضافة الفنان الى قائمة المفضلة الخاصة بك";
+"You have reached your maximum Pinned limit" = "لا يمكن اضافة اكثر من ذلك الى قائمة المفضلة ولكن يمكنك الاستبدال";
+"please select play time" = "مدة العزف المطلوبة";
+"Talent Type cannot be empty" = "لا يمكن أن يكون نوع الموهبة فارغًا";
+"What kind of musicians are you looking for?" = "ايش جوّك؟ اختر الي يناسب مودك";
+"What kind of entertainer are you looking for?" = "ايش جوّك؟ اختر الي يناسب مودك";
+"Please enter your phone number starting with 5" = "من فضلك ادخل رقم الهاتف بدايه من رقم 5";
+
+"yes or no" = "مثال : نعم , لا";
+
+"Please write the custom package details" = "الرجاء كتابة تفاصيل باقتك الخاصه هنا";
+"full squad,violin,lute" = "مثال : عود ، كمان ، فرقة كاملة";
+
+"Please update the ArtStation application to the latest version available to continue using it" = "يرجى تحديث التطبيق لآخر نسخة ليتسنى لكم استخدام التطبيق";
+
+"Update" = "تحديث";
+"No thanks" = "لا شكرا";

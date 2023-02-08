@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Release</key>
+	<dict>
+		<key>PayfortEnvironment</key>
+		<string>KPayFortEnviromentProduction</string>
+		<key>BaseUrlGuest</key>
+		<string>https://api.art-station.org/arts/api/v1/guest/</string>
+		<key>BaseURLV</key>
+		<string>https://api.art-station.org/arts/api/v1/mobile/</string>
+		<key>BaseURLEndpoint</key>
+		<string>https://api.art-station.org/arts/api/v1/mobile/</string>
+		<key>BaseURLImage</key>
+		<string>https://art-station-bucket.s3.me-south-1.amazonaws.com/uploads_production/</string>
+		<key>BaseURLAudio</key>
+		<string></string>
+	</dict>
+	<key>Debug</key>
+	<dict>
+		<key>PayfortEnvironment</key>
+		<string>KPayFortEnviromentSandBox</string>
+		<key>BaseUrlGuest</key>
+		<string>https://api-staging.art-station.org/arts/api/v1/guest/</string>
+		<key>BaseURLV</key>
+		<string>https://api-staging.art-station.org/arts/api/v1/mobile/</string>
+		<key>BaseURLEndpoint</key>
+		<string></string>
+		<key>BaseURLImage</key>
+		<string>https://art-station-bucket.s3.me-south-1.amazonaws.com/uploads_staging/</string>
+		<key>BaseURLAudio</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>
